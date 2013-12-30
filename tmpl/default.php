@@ -10,7 +10,7 @@
  */
 ?>
 <div class="k2-search module">
-	<form action="" method="get">
+	<form action="<?php echo $path ?>" method="get">
 		<input type="text" name="term" size="32" />
 	</form>
 </div>
